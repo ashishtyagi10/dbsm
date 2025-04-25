@@ -1,0 +1,23 @@
+# Gradle cache and build directories
+.gradle/
+**/build/
+
+# Java class files
+*.class
+
+# Java crash logs
+hs_err_pid*
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
