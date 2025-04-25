@@ -1,4 +1,4 @@
-package com.example.cli;
+package us.trinly.dbsm.cli;
 
 public class Main {
     public static void main(String[] args) {

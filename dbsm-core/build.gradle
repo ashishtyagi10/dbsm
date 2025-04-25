@@ -10,3 +10,11 @@ publishing {
         }
     }
 }
+
+dependencies {
+    implementation 'org.springframework:spring-context:5.3.30'
+    implementation 'org.springframework:spring-beans:5.3.30'
+    implementation 'javax.persistence:javax.persistence-api:2.2'
+    implementation 'org.hibernate:hibernate-core:5.6.15.Final'
+    implementation 'org.liquibase:liquibase-core:4.27.0'
+}
