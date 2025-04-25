@@ -1,0 +1,2 @@
+rootProject.name = 'dbsm'
+include 'dbsm-core', 'dbsm-cli'

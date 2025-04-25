@@ -1,0 +1,26 @@
+plugins {
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+    id 'maven-publish'
+}
+
+dependencies {
+    implementation project(':dbsm-core')
+}
+
+application {
+    mainClass = 'com.example.cli.Main'
+}
+
+shadowJar {
+    archiveBaseName.set('dbsm')
+    archiveClassifier.set('')
+}
+
+publishing {
+    publications {
+        cliJar(MavenPublication) {
+            artifact shadowJar
+        }
+    }
+}
